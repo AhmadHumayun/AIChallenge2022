@@ -8,3 +8,5 @@ AI Challenge 2022 by GoMotive
 3. YOLO requires dataset labels to be txt files for each image with class and boundary box parameters.
 4. COCO format boundary box have parameters x,y,w,h where x,y is top left corner of boundary box and w,h are absolute width and height of boundary box.
 5. While YOLO boundary box have parameters x,y,w,h where x,y are center of boundary box and w,h are relative width and height of boundary box.
+6. first changed coco format to yolo darknet by coco2yolo script
+7. then changed yolo darknet format to yolov5 format by yolo_darknet_2_yolov5 script
